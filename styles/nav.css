@@ -12,9 +12,20 @@ nav li a{
 
 
 nav li:hover{
-    background-color: :lightgray;
+    background-color:lightgray;
 }
-nav ul{
+nav>ul{
     display: flex;
+
+}
+nav>ul>li:hover>ul{
+    display:block;
+}
+.dropdown{
+    display:none;
+    position:absolute;
+    background-color: lightyellow;
+    padding:0px;
+    margin:0px;
 
 }
